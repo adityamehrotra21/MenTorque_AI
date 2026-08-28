@@ -1,0 +1,25 @@
+{
+  "name": "mentorque-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Express + MongoDB API for Mentorque AI Interview",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --watch --env-file-if-exists=.env src/server.js",
+    "start": "node --env-file-if-exists=.env src/server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@langchain/langgraph": "^1.4.7",
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.0",
+    "zod": "^3.25.76"
+  }
+}
